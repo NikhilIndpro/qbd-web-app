@@ -1,0 +1,32 @@
+/* generic */
+@import url(./base/animate.css);
+@import url(./base/CheckBoxSwitches.css);
+@import url(./base/custom.css);
+@import url(./base/plugins.css);
+@import url(./base/print.css);
+@import url(./base/style-conquer.css);
+@import url(./base/style-non-responsive.css);
+@import url(./base/style-radio.css);
+@import url(./base/style-responsive.css);
+@import url(./base/style.css);
+
+/* pages */
+@import url(./base/pages/login.css);
+@import url(./base/pages/about-us.css);
+@import url(./base/pages/blog.css);
+@import url(./base/pages/error.css);
+@import url(./base/pages/image-crop.css);
+@import url(./base/pages/inbox.css);
+@import url(./base/pages/invoice.css);
+@import url(./base/pages/portfolio.css);
+@import url(./base/pages/pricing-tables.css);
+@import url(./base/pages/profile.css);
+@import url(./base/pages/promo.css);
+@import url(./base/pages/tasks.css);
+@import url(./containers/logIn.css);
+/* Themes */
+@import url(./base/themes/blue.css);
+@import url(./base/themes/default.css);
+@import url(./base/themes/grey.css);
+@import url(./base/themes/light.css);
+/* @import url(./base/themes/red.css); */

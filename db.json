@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "email": "olivierl1@mail.com",
+      "password": "$2a$10$4c7eR9TeqWGc9WVdait.j.65uN7S6OQIKJEc5YhNB2qWPMHPmsWNW",
+      "id": 1
+    },
+    {
+      "email": "olivierl2@mail.com",
+      "password": "$2a$10$jW/0lQ6CS0w56S8fb8Jx5OeXO0TeTGZ0DNBJIKrJ8f.s.x0c.vLMC",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": "34",
+      "id": 2
+    }
+  ]
+}
