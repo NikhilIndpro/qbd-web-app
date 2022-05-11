@@ -6,7 +6,7 @@ const createAPI = () => {
   const apiHeader = {
     "Content-Type": "application/json",
   };
-
+  console.log("API_BASE_URL",API_BASE_URL)
   const api = axios.create({
     baseURL: API_BASE_URL,
     headers: apiHeader,

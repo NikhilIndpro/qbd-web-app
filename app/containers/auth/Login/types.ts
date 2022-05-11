@@ -4,13 +4,15 @@ import * as actions from './actions';
 /* --- STATE --- */
 interface LoginState {
   isAuthenticated: boolean;
+  language:[]; 
+  inValidUser:boolean;
 }
 
 /* --- ACTIONS --- */
-type LoginActions = ActionType<typeof actions>;
+ type LoginActions = ActionType<typeof actions>;
 
 /* --- EXPORTS --- */
 type ContainerState = LoginState;
-type ContainerActions = LoginActions;
+ type ContainerActions = LoginActions;
 
 export { ContainerState, ContainerActions };

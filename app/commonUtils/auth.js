@@ -13,7 +13,6 @@ export const setBearerToken = (token) => {
 
 export const isAuthenticated = () => {
   const token = getBearerToken();
-  console.log(token)
   if (token) {
     return true;
   }

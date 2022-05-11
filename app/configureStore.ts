@@ -39,7 +39,8 @@
      devTools: process.env.NODE_ENV !== 'production',
      enhancers,
    });
- 
-   return store;
+
+   return store
  }
  
+

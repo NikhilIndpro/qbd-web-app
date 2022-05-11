@@ -6,6 +6,7 @@ Login page
 .login {
   background-color: #E6F3EA !important;
   height:100vh;
+  display: flex;
 }
 
 .login .logo {
@@ -14,15 +15,18 @@ Login page
   text-align: center;
 }  
 
+
+
 .login .content {
+  justify-content: center;
   background-color:#fff; 
   width: 375px;
-  margin: 0 auto; 
   margin-bottom: 0px;
   padding: 20px;  
-  padding-top: 20px;   
+  padding-top: 20px   ;   
   padding-bottom: 15px;  
   border-radius: 4px;
+  margin: auto;
 }
 
 .login .content h3 {
@@ -45,9 +49,7 @@ Login page
     margin: 0px;
 }
 
-.login .content .forget-form {
-  display: none;
-}
+
 
 .login .content .register-form {
   display: none;
